@@ -1,0 +1,247 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulários */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para os botões de ação */
+a {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+a[href*="update"] {
+    background-color: #28a745; /* Verde para editar */
+}
+
+a[href*="delete"] {
+    background-color: #dc3545; /* Vermelho para excluir */
+}
+
+/* Botão para criar novo usuário */
+.btn-create {
+    display: inline-block;
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-create:hover {
+    background-color: #0056b3; /* Azul escuro */
+    opacity: 0.9;
+}
+
+.btn-create i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+/* Estilo para a área de paginação */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.pagination a.active {
+    font-weight: bold;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Contêiner do Logout */
+.logout-container {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.logout-container form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+/* Botão Logout */
+.btn-logout {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: #b02a37; /* Vermelho escuro */
+    opacity: 0.9;
+}
+
+/* Estilo específico para a página de login */
+.login-page {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login-page h1 {
+    color: #333;
+}
+
+.login-page form {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-page form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-page form input[type="text"],
+.login-page form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-page form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-page form button:hover {
+    background-color: #0056b3;
+}
+
+.login-page p {
+    color: red;
+}
